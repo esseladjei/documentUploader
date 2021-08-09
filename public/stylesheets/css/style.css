@@ -1,0 +1,27 @@
+.modal-lg {
+    max-width: 80%;
+  }
+  .container-fluid{
+    position: relative;
+  }
+  .notification{
+      width: 30%;
+  }
+  .notification .alert{
+      position: absolute;
+      top: 0;
+      right: 15px;
+      z-index: 2;
+  }
+  #existingfile{
+      padding:10px;
+      box-shadow:0px 2px 0px #f7b8c5;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+  }
+.custom-file-label{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;   
+}

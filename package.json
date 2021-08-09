@@ -1,0 +1,42 @@
+{
+  "name": "zlab",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.9.0",
+    "bootstrap": "4.3.1",
+    "chart.js": "2.8.0",
+    "cookie-parser": "~1.4.3",
+    "datatables.net-bs4": "1.10.19",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-fileupload": "^1.1.5",
+    "http-errors": "~1.6.2",
+    "jquery": "3.4.1",
+    "jquery.easing": "^1.4.1",
+    "mongoose": "^5.6.4",
+    "morgan": "~1.9.0",
+    "serve-favicon": "^2.5.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "chai": "^4.2.0",
+    "del": "4.1.1",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "6.1.0",
+    "gulp-clean-css": "4.2.0",
+    "gulp-header": "2.0.7",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0",
+    "mocha": "^6.2.0"
+  }
+}
