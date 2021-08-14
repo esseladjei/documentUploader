@@ -15,6 +15,9 @@ router.get('/documentlist', function (req, res, next) {
 router.get('/newdocument', function (req, res, next) {
   res.render('newdocument')
 })
+router.get('/viewmap', function (req, res, next) {
+  res.render('viewmap')
+})
 router.post('/uploadfile', function (req, res, next) {
   req.body.file = req.files.zlabfile
   documentBusiness.addNewfile(req.body).then((response) => {
